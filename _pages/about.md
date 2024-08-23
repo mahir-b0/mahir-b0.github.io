@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: \"We are all in the gutter, but some of us are looking at the stars.\"
+subtitle: 
 
 profile:
   align: right

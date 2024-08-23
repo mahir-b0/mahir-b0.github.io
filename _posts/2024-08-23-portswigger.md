@@ -1,9 +1,9 @@
 ---
 layout: post
-title: a post with tabs
-date: 2024-05-01 00:32:13
-description: this is what included tabs in a post could look like
-tags: formatting code
+title: portswigger web academy
+date: 2024-08-23 19:05:00
+description: my progression through the web security labs on portswigger
+tags: learning
 categories: sample-posts
 tabs: true
 ---

@@ -1,14 +1,10 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - mahir-b0
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - mahir-b0/bonafide
+  - mahir-b0/petals
+  - mahir-b0/siciphus
+  - mahir-b0/mahir-b0.github.io
