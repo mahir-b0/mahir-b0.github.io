@@ -1,7 +1,7 @@
 ---
 layout: post
 title: portswigger web academy
-date: 2024-23-08 19:05:00
+date: 2024-08-23 19:15:00
 description: my progression through the web security labs on portswigger
 tags: learning
 categories: 
