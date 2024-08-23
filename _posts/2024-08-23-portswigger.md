@@ -1,122 +1,27 @@
 ---
 layout: post
 title: portswigger web academy
-date: 2024-08-23 19:05:00
+date: 2024-23-08 19:05:00
 description: my progression through the web security labs on portswigger
 tags: learning
-categories: sample-posts
+categories: 
 tabs: true
 ---
 
-This is how a post with [tabs](https://github.com/Ovski4/jekyll-tabs) looks like. Note that the tabs could be used for different purposes, not only for code.
+Thought I'd use this blog to keep track of my progress throughout the PortSwigger Web Academy, where I'm aiming to learn about common web vulnerabilities and how to exploit them. Shoutout to my mate <a href="https://www.linkedin.com/in/abdul-haadi-siddique-0b4455247/">Abdul</a> for showing me this resource.
 
-## First tabs
+# Server-side vulnerabilities
 
-To add tabs, use the following syntax:
+## SQL Injection
 
-{% raw %}
+### What is an SQLi?
 
-```liquid
-{% tabs group-name %}
+Put simply, it's a web vulnerability that lets an attacker input a malicious query to access sensitive data inside a database. It could also enable them to perform <a href="https://www.cloudflare.com/learning/ddos/glossary/denial-of-service/">denial-of-service attacks</a>. 
 
-{% tab group-name tab-name-1 %}
+### What are the impacts of an SQLi?
 
-Content 1
+SQLi's can compromise PII and SPII such as:
 
-{% endtab %}
-
-{% tab group-name tab-name-2 %}
-
-Content 2
-
-{% endtab %}
-
-{% endtabs %}
-```
-
-{% endraw %}
-
-With this you can generate visualizations like:
-
-{% tabs log %}
-
-{% tab log php %}
-
-```php
-var_dump('hello');
-```
-
-{% endtab %}
-
-{% tab log js %}
-
-```javascript
-console.log("hello");
-```
-
-{% endtab %}
-
-{% tab log ruby %}
-
-```javascript
-pputs 'hello'
-```
-
-{% endtab %}
-
-{% endtabs %}
-
-## Another example
-
-{% tabs data-struct %}
-
-{% tab data-struct yaml %}
-
-```yaml
-hello:
-  - "whatsup"
-  - "hi"
-```
-
-{% endtab %}
-
-{% tab data-struct json %}
-
-```json
-{
-  "hello": ["whatsup", "hi"]
-}
-```
-
-{% endtab %}
-
-{% endtabs %}
-
-## Tabs for something else
-
-{% tabs something-else %}
-
-{% tab something-else text %}
-
-Regular text
-
-{% endtab %}
-
-{% tab something-else quote %}
-
-> A quote
-
-{% endtab %}
-
-{% tab something-else list %}
-
-Hipster list
-
-- brunch
-- fixie
-- raybans
-- messenger bag
-
-{% endtab %}
-
-{% endtabs %}
+- passwords
+- credit card details
+- personal user info (e.g. DOB, home address)
