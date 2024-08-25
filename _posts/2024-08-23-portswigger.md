@@ -14,12 +14,10 @@ Thought I'd use this blog to keep track of my progress throughout the PortSwigge
 ---
 ## SQL Injection
 ---
----
 ### What is an SQLi?
 
 Put simply, it's a web vulnerability that lets an attacker input a malicious query to access sensitive data inside a database. It could also enable them to perform <a href="https://www.cloudflare.com/learning/ddos/glossary/denial-of-service/">denial-of-service attacks</a>.
 
----
 ---
 ### What are the impacts of an SQLi?
 
