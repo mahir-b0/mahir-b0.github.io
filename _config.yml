@@ -1,0 +1,13 @@
+title: mahir
+description: blog where i talk about security stuff i'm doing
+url: "https://mahir-b0.github.io"
+
+markdown: kramdown
+highlighter: rouge
+permalink: /blog/:title/
+
+kramdown:
+  syntax_highlighter: rouge
+
+exclude:
+  - README.md
