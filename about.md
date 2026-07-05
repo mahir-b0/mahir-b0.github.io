@@ -3,7 +3,7 @@ layout: default
 title: about
 permalink: /about/
 ---
-<p class="post-meta"><span class="prompt">$</span> whoami</p>
+<p class="cmd"><span class="prompt">$</span> whoami<span class="cursor" aria-hidden="true"></span></p>
 
 hey, i'm mahir.
 
